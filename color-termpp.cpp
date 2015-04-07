@@ -1,7 +1,7 @@
 // Copyright (c) 2015 Lief Swanson
 // URL           https://github.com/liefswanson/color-termpp
 
-#include "term.hpp"
+#include "color-term.hpp"
 
 namespace term {
 	using namespace std;
