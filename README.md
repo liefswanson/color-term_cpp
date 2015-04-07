@@ -8,9 +8,9 @@ for the header only grab "color-term_inl.hpp" and put it in your includes
 However, because header only libraries which do not use templates are evil you may also use this library as a compiled object!
 
 for the compiled object, you will want to...
-```git clone ```
-```cd color-termpp```
-```[insert c++ compiler here] color-term.cpp -c -O3 -o color-term.a```
+- ```git clone ```
+- ```cd color-termpp```
+- ```[insert c++ compiler here] color-term.cpp -c -O3 -o color-term.a```
 
 and then add term-color.a directly to your project as one of the objects to link against
 finally place color-term.hpp in your includes
