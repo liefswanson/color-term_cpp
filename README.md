@@ -28,7 +28,7 @@ after having cloned the project as above,
 you can also build the demo and run it like so
 
 ```
-[insert c++ compiler here] color-term-demo.cpp -o color-term-demo.bin
+[insert c++ compiler here] color-term_demo.cpp -o color-term_demo.bin
 ./color-term-demo.bin
 ```
 
