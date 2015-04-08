@@ -17,7 +17,7 @@ cd color-termpp
 and then add term-color.a directly to your project as one of the objects to link against. Finally place color-term.hpp in your includes.
 
 # usage
-of controlling the forground color most things work as toggles
+Controlling the forground color most things work as toggles
 eg.```cout << term::light::on;``` will turn on lighter colors (results may vary based on terminal)
 ...and```cout << term::light::off;``` will disable them again.
 Finally... to reset everything, ```term::reset```
