@@ -24,6 +24,15 @@ eg.```cout << term::light::on;``` will turn on lighter colors (results may vary 
 ...and```cout << term::light::off;``` will disable them again.
 Finally... to reset everything, ```term::reset```
 
+after having cloned the project as above,
+you can also build the demo and run it like so
+
+```
+[insert c++ compiler here] color-term-demo.cpp -o color-term-demo.bin
+./color-term-demo.bin
+```
+
+
 total list of flags are...
 - ```term::ital::[on/off]```  italics
 - ```term::light::[on/off]``` lighter colors
