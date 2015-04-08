@@ -13,9 +13,9 @@ int main(int argc, char *argv[]) {
 	std::cout << term::ital::on << "hello italic red!" << std::endl;
 	// note that the italics were not turned off
 	std::cout << term::light::on << term::uline::on << term::blue << "hello underlined italic light blue!" << std::endl;
-	std::cout << term::bg::light::green << "hello text abomination i can bearly read!" << term::reset << std::endl;
+	std::cout << term::bg::light::green << "hello text abomination i can barel read"<< std::endl;
 	// background colors should be reset BEFORE a line break, trust me...
 	// I recommend just not using them they are a pain
-	std::cout << "hello the reality of what the new line character actually does in many terminals..." << std::endl;
+	std::cout <<term::reset<< "hello the reality of what the new line character actually does in many terminals..." << std::endl;
 	return 0;
 }
