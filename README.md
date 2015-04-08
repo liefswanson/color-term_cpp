@@ -29,7 +29,7 @@ you can also build the demo and run it like so
 
 ```
 [insert c++ compiler here] color-term_demo.cpp -o color-term_demo.bin
-./color-term-demo.bin
+./color-term_demo.bin
 ```
 
 
